@@ -104,5 +104,5 @@ if __name__ == "__main__":
     h = Hangman()
     h.render()
     while True:
-        c = raw_input('Input: ')
+        c = input('Input: ')
         h.guess(c)
